@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_gradiant"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="20dp"
+                android:text="BEST FOOD"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="26sp" />
+
+
+            <ImageView
+                android:id="@+id/btnadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_add"
+                android:tint="?attr/colorOnSecondary"
+                tools:ignore="UseAppTint" />
+
+            <ImageView
+
+                android:id="@+id/btn_removeall"
+                android:layout_marginEnd="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:src="@drawable/ic_clearall"
+                android:tint="?attr/colorOnSecondary"
+                />
+
+
+
+
+
+        </FrameLayout>
+
+        <EditText
+android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/edtsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape1"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="10dp"
+            android:hint="enter food name"
+            android:paddingStart="20dp" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_main"
+        android:background="?attr/colorSurface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_recycler" />
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialogAdd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:hint="foodname"
+            android:inputType="text"
+            android:id="@+id/updatedialog_edtfoodname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:hint="foodprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+       >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="number"
+            android:id="@+id/updatedialog_edtfoodprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:hint="fooddistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+       >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="number"
+            android:id="@+id/updatedialog_edtfooddistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:hint="foodcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+       >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="text"
+            android:id="@+id/updatedialog_edtfoodcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.button.MaterialButton
+
+            android:id="@+id/updatedialog_btndone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+                 android:layout_marginEnd="10dp"
+            android:text="Done"
+            android:textColor="?attr/colorOnSecondary"
+            app:icon="@drawable/ic_done"
+            app:iconTint="?attr/colorOnSecondary" />
+        <com.google.android.material.button.MaterialButton
+                android:layout_marginStart="10dp"
+            android:id="@+id/updatedialog_btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="cancel"
+            android:textColor="?attr/colorOnSecondary"
+            app:icon="@drawable/ic_done"
+            app:iconTint="?attr/colorOnSecondary" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

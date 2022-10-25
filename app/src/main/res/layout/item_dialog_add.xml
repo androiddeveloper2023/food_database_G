@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:id="@+id/dialogAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="enter your food Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:inputType="text"
+                android:id="@+id/dialog_edtfoodname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="enter your food price">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/dialog_edtfoodprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="enter your food distance">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/dialog_edtfooddistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="enter your food city">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:inputType="text"
+                android:id="@+id/dialog_edtfoodcity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="enter your food url">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:inputType="text"
+                android:id="@+id/dialog_edtfood_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginEnd="10dp"
+                android:id="@+id/dialog_btndone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Done"
+                android:textColor="?attr/colorOnSecondary"
+                app:icon="@drawable/ic_done"
+                app:iconTint="?attr/colorOnSecondary" />
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/dialog_btncancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:text="Cancel"
+                android:textColor="?attr/colorOnSecondary"
+                app:icon="@drawable/ic_cancel"
+                app:iconTint="?attr/colorOnSecondary" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
